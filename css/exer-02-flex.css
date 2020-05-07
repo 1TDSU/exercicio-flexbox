@@ -24,7 +24,7 @@ height: 370px;
 }
 
 .box-child-2{
-  flex-basis: 420px;
+flex-basis: 420px;
 flex-grow: 2;
 }
 
