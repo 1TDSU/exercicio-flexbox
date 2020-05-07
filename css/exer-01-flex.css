@@ -1,0 +1,99 @@
+*{
+    padding: 0px;
+    margin:10px;
+}
+body{
+    background-color: black;
+}
+#container{
+    width: 1100px;
+    background-color: white;
+    border-radius:5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#container>div{
+    height: max-content;
+}
+.first-column,.second-column,.third-column,.fourth-column{
+    height: 100px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+.first-column{
+    flex-grow: 1;
+}
+.second-column{
+    flex-grow: 2;
+    
+    
+}
+.third-column{
+    display: flex;
+    flex-grow: 4;
+    flex-direction: row;
+}
+.fourth-column{
+    flex-grow: 3;
+    display: flex;
+    flex-direction: row;
+}
+.second-column{
+    display: flex;
+    flex-direction: row;
+}
+.sC-fe{
+    display: flex;
+    flex-grow: 1;
+    width: 100px;
+}
+.sC-fe,.sC-se{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+.sC-se{
+    flex-grow: 5;
+    width: 100px;
+}
+.tC-fe,.tC-se,.tC-te,.tC-fthe{
+    margin: 10px;
+    height:200px;
+    flex-wrap: wrap-reverse;
+    flex-grow: 1px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    
+    
+}
+.tC-fe{
+    
+}
+
+.fC-se,.fC-fe,.fC-te{
+    padding-left: 10px;
+    width: 100px;
+    height: max-content;
+}
+.fC-se{
+    flex-grow: 3;
+}
+.fC-fe,.fC-te{
+    flex-grow: 1;
+}
+.fC-fe{
+    border-color: black;
+    border-width: 0px 1px 0px 0px;
+    border-style: solid;
+    
+}
+.fC-te{
+    border-color: black;
+    border-width: 0px 0px 0px 1px;
+    border-style: solid;
+    
+}
