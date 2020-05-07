@@ -1,1 +1,24 @@
 @import "style-base.css";
+
+[class^="box-"] {
+  flex-grow: 1;
+}
+[class^="box-"] + [class^="box-"] {
+  margin-left: 20px;
+}
+.box-1,
+.box-2 {
+  height: 350px;
+}
+.box-1 {
+  flex-grow: 2.12;
+}
+.box-3,
+.box-4,
+.box-5 {
+  height: 250px;
+}
+
+.box-6 {
+  margin-top: 20px !important;
+}
