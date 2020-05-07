@@ -1,64 +1,100 @@
-@charset "UTF-8";
 
-.container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+*{
+    padding: 0px;
+    margin:10px;
 }
-
-.box{
-  display: block;
-  width: 90%;
-  /*height: 150px;*/
-  margin: 20px;
-  padding: 10px;
-  max-width: 1100px;
-  border: solid 1px #ff0000;
+body{
+    background-color: black;
 }
-
-.box-1{
-  flex-basis: 10%;
+#container{
+    width: 1100px;
+    background-color: white;
+    border-radius:5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
-.box-2{
-  display: flex;
+#container>div{
+    height: max-content;
 }
-/* child of box-2*/
-.box-child-1{
-  flex-basis: 250px;
-  height: 100px;
+.first-column,.second-column,.third-column,.fourth-column{
+    height: 100px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
 }
-.box-child-2{
-  flex-grow:2;
+.first-column{
+    flex-grow: 1;
 }
-/* child of box-2*/
-.box-3{
-  display: flex;
+.second-column{
+    flex-grow: 2;
+    
+    
 }
-/* child of box-3*/
-.box-child-3{
-  flex-grow:1;
-  height: 200px;
+.third-column{
+    display: flex;
+    flex-grow: 4;
+    flex-direction: row;
 }
-.box-child-4{
-  flex-grow:1;
+.fourth-column{
+    flex-grow: 3;
+    display: flex;
+    flex-direction: row;
 }
-.box-child-5{
-  flex-grow:1;
+.second-column{
+    display: flex;
+    flex-direction: row;
 }
-.box-child-6{
-  flex-grow:1;
+.sC-fe{
+    display: flex;
+    flex-grow: 1;
+    width: 100px;
 }
-/* child of box-3*/
-.box-4{
-  display: flex;
-  justify-content: center;
+.sC-fe,.sC-se{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
 }
-/* child of box-4*/
-.box-child-7{
-  flex-basis: 50%;
-  height: 110px;
-  border-top: 0;
-  border-bottom: 0;
+.sC-se{
+    flex-grow: 5;
+    width: 100px;
 }
-/* child of box-4*/
+.tC-fe,.tC-se,.tC-te,.tC-fthe{
+    margin: 10px;
+    height:200px;
+    flex-wrap: wrap-reverse;
+    flex-grow: 1px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    
+    
+}
+.tC-fe{
+    
+}
+
+.fC-se,.fC-fe,.fC-te{
+    padding-left: 10px;
+    width: 100px;
+    height: max-content;
+}
+.fC-se{
+    flex-grow: 3;
+}
+.fC-fe,.fC-te{
+    flex-grow: 1;
+}
+.fC-fe{
+    border-color: black;
+    border-width: 0px 1px 0px 0px;
+    border-style: solid;
+    
+}
+.fC-te{
+    border-color: black;
+    border-width: 0px 0px 0px 1px;
+    border-style: solid;
+    
+}
