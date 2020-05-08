@@ -17,10 +17,13 @@ h1,h2,h3{
 }
 
 .container{
+
+  width: 90%;
   margin: auto;
-  width: 80%;
   height: 900px;
   padding: 10px;
   background-color: #ebdddf;
-  border:solid 1px #cccccc;
+  border:solid 1px #ccc;
+
+
 }

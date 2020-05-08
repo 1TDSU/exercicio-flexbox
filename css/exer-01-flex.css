@@ -1,100 +1,63 @@
 
-*{
-    padding: 0px;
-    margin:10px;
-}
-body{
-    background-color: black;
-}
-#container{
-    width: 1100px;
-    background-color: white;
-    border-radius:5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.container{
+  display: flex;
+  flex-direction: column;
 }
 
-#container>div{
-    height: max-content;
+
+.box{
+  background-color: #8b868c;
+  display: block;
+  width: 90%;
+  max-width: 1100px;
+  /*height: 150px;*/
+  margin: 20px;
+  padding: 10px;
+  border: solid 1px #ff0000;
 }
-.first-column,.second-column,.third-column,.fourth-column{
-    height: 100px;
-    border-color: black;
-    border-width: 2px;
-    border-style: solid;
-}
-.first-column{
-    flex-grow: 1;
-}
-.second-column{
-    flex-grow: 2;
-    
-    
-}
-.third-column{
-    display: flex;
-    flex-grow: 4;
-    flex-direction: row;
-}
-.fourth-column{
-    flex-grow: 3;
-    display: flex;
-    flex-direction: row;
-}
-.second-column{
-    display: flex;
-    flex-direction: row;
-}
-.sC-fe{
-    display: flex;
-    flex-grow: 1;
-    width: 100px;
-}
-.sC-fe,.sC-se{
-    border-color: black;
-    border-width: 2px;
-    border-style: solid;
-}
-.sC-se{
-    flex-grow: 5;
-    width: 100px;
-}
-.tC-fe,.tC-se,.tC-te,.tC-fthe{
-    margin: 10px;
-    height:200px;
-    flex-wrap: wrap-reverse;
-    flex-grow: 1px;
-    border-color: black;
-    border-width: 2px;
-    border-style: solid;
-    
-    
-}
-.tC-fe{
-    
+.box-1{
+  flex-basis: 10%;
 }
 
-.fC-se,.fC-fe,.fC-te{
-    padding-left: 10px;
-    width: 100px;
-    height: max-content;
+.box-2{
+display: flex;
 }
-.fC-se{
-    flex-grow: 3;
+
+.box-child-1{
+flex-basis: 250px;
+height: 100px;
 }
-.fC-fe,.fC-te{
-    flex-grow: 1;
+
+.box-child-2{
+flex-grow: 2
 }
-.fC-fe{
-    border-color: black;
-    border-width: 0px 1px 0px 0px;
-    border-style: solid;
-    
+
+.box-3{
+display: flex
+
 }
-.fC-te{
-    border-color: black;
-    border-width: 0px 0px 0px 1px;
-    border-style: solid;
-    
+.box-child-3{
+flex-grow: 1;
+height: 200px;
 }
+
+.box-child-4{
+  flex-grow:1;
+}
+.box-child-5{
+  flex-grow:1;
+}
+.box-child-6{
+  flex-grow:1;
+}
+/* child of box-3*/
+.box-4{
+  display: flex;
+  justify-content: center;
+}
+/* child of box-4*/
+.box-child-7{
+  flex-basis: 50%;
+  height: 110px;
+  border-top: 0;
+  border-bottom: 0;
