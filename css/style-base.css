@@ -37,7 +37,7 @@ div[class*="box-"] {
   padding: 10px;
 }
 
-.box .item {
+.item {
   height: 100%;
   border: 1px solid #000;
   flex-grow: 1;

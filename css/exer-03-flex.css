@@ -1,1 +1,42 @@
 @import "style-base.css";
+
+div[class*="box-"] {
+  margin-top: 20px;
+  min-height: 30px;
+}
+
+.item {
+  margin: 0 10px;
+}
+
+.box-1 {
+  margin: 0 !important;
+  height: 150px;
+}
+
+.box-1 .item:first-child {
+  flex-grow: 4;
+}
+
+.box-3,
+.box-5 {
+  height: 200px;
+}
+
+.box.group {
+  flex-direction: column;
+  width: 150px;
+  height: 100%;
+}
+
+.box.group .item + .item {
+  margin-top: 10px;
+}
+
+.box.box-5 {
+  flex-direction: row-reverse;
+}
+
+.box-6 {
+  height: 100px;
+}
