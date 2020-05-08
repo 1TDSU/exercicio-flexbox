@@ -10,7 +10,7 @@
 
 .box{
   display: block;
-  width: 95%;
+  width: 96%;
   /*height: 150px;*/
   margin: 20px;
   padding: 10px;
@@ -26,40 +26,37 @@
   display: flex;
 }
 
-.a1{
+.box-child-01{
   flex-basis: 250px;
   height: 100px;
 
 }
-.a2{
+.box-child-02{
   flex-grow: 2;
 }
 
 .box-3{
-  flex-basis: 30%;
   display: flex;
-  flex-direction: row;
 }
-.a3{
+.box-child-03{
   flex-grow: 1;
   height: 200px;
 }
-.a4{
+.box-child-04{
   flex-grow: 1;
 }
-.a5{
+.box-child-05{
   flex-grow: 1;
 }
-.a6{
+.box-child-06{
   flex-grow: 1;
 }
 .box-4{
-  flex-basis: 25%;
   display: flex;
   justify-content: center;
-
 }
-.a7{
+
+.box-child-07{
   flex-basis: 50%;
   height: 110px;
   border-top: 0;
