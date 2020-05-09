@@ -8,74 +8,105 @@
 }
 
 body{
-  font-family: 'Lato', sans-serif;
+
   font-size: 16px;
 
 }
 
-h1,h2,h3{
+h1{
   margin: 20px 10px;
+  font-size: 3rem;
+  text-shadow: 0.2rem 0.2rem black;
+}
+
+
+p{
+  font-size: 1.5rem;
+  text-align: center;
+  text-shadow: 0.2rem 0.2rem black;
+  
+}
+
+header{
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+section{
+  font-family: 'Lato', sans-serif;
+  margin-top: 70px;
+}
+
+nav img{
+  position: absolute;
+  width: auto;
+  height: 60px;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, -50%);
+}
+
+nav{
+  height: 70px;
+  margin-top: 0px;
+  /*opacity: 0.8;*/
+  position: relative;
+  margin-right: 0px;
+  margin-left: 0px;
+  width: auto;
+  background-color:#3644503f;
+}
+
+ul{
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(140%, -50%);
+  text-align: center;    
+}
+
+li{
+  padding-left: 11px;
+  padding-right: 11px;
+  display: inline;
+  font-size: 22px; 
+}
+
+a{
+  text-decoration: none;
+  color: #4e4d4e;
+}
+
+a:hover{
+  transition: 0.5s;
+  color: rgb(216, 208, 208);
+  text-shadow: 1px 1px 1px black;
 }
 
 .container{
+  text-align: center;
   display: flex;
   flex-direction: column;
   background-color: burlywood;
-  height: 900px;
+  height: 718px;
 }
 
-.box{
-  display: block;
-  width: 90%;
-  max-width: 1100px;
-
-  margin: 20px;
-  padding: 10px;
-  border: solid black 2px;
+img{
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
-.box-1{
-  flex-basis: 10%;
-  background-color: #8b868c;
-}
-.box-2{
-  display: flex;
-  height: 150px;
-  background-color: #8e5275;
-}
-.box-2-1{
-  flex-basis: 20%;
-  height: 60%;
-  
-  background-color: #83bd71;
-}
-.box-2-2{
-  flex-basis: auto;
-  height: 60%;
-  background-color: #718fbd;
-}
-.box-3{
-  display: flex;
-  height: 300px;
-  background-color: #6f997b;
-}
-.box-3-1{
-  flex-grow:1;
- }
- .box-3-2{
-   flex-grow: 1;
- }
- .box-3-3{
-   flex-grow:1;
- }
- .box-3-4{
-   flex-grow:1;
- }
-.box-4{
-  display: flex;
-  height: 300px;
-  background-color: #bdb971;
-}
+.sobre-texto{
+  border-radius: 4rem;
+  padding: 1%;
+  margin-top: 1%;
+  margin-left: 28%;
+  color: white;
+  position: absolute;
+  background-color: black;
+  opacity: 0.8;
 
-
-
+}
