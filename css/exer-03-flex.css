@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.box{
+  width: 90%;
+  margin: 10px;
+  padding: 10px;
+  max-width: 1100px;
+  border: solid 1px #ff0000;
+  box-sizing: border-box;
+}
+
+.column{
+  width: 30%;
+  flex-direction: column;
+  margin: 5px 5px 5px 5px;
+}
+
+.box-1{
+  display: flex;
+}
+
+/* child of box-1*/
+.box-child-1{
+  flex-grow: 1;
+  height: 100px;
+}
+
+.box-child-2{
+  /*flex-grow: 2;*/
+    flex-basis: 20%;
+}
+/* child of box-1 end*/
+
+.box-2{
+  flex-basis: 5%;
+}
+
+.box-3{
+  display: flex;
+  flex-direction: row;
+}
+
+/* child of box-3*/
+.box-child-3{
+  flex-basis: 100%;
+}
+
+.box-child-4{
+  height: 64px;
+}
+
+.box-child-5{
+  height: 64px;
+}
+
+.box-child-6{
+  height: 64px;
+}
+
+.box-child-7{
+  height: 64px;
+}
+/* child of box-3 end*/
+
+
+.box-4{
+  flex-basis: 5%;
+}
+
+.box-5{
+  display: flex;
+}
+/* child of box-5*/
+
+.box-child-8{
+  height: 64px;
+}
+
+.box-child-9{
+  height: 64px;
+}
+
+.box-child-10{
+  height: 64px;
+}
+
+.box-child-11{
+  height: 64px;
+}
+
+.box-child-12{
+  flex-basis: 100%;
+}
+/* child of box-5 end*/
+
+.box-6{
+  flex-basis: 10%;
+}

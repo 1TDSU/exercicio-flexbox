@@ -1,51 +1,54 @@
+@charset "UTF-8";
 
 .container{
   display: flex;
   flex-direction: column;
 }
 
-
 .box{
-  background-color: #8b868c;
   display: block;
   width: 90%;
-  max-width: 1100px;
-  /*height: 150px;*/
   margin: 20px;
   padding: 10px;
+  max-width: 1100px;
   border: solid 1px #ff0000;
 }
+
 .box-1{
   display: flex;
 }
-.box-child-1{
-flex-grow: 1;
-height: 370px;
 
+/* child of box-1*/
+.box-child-1{
+  flex-grow: 1;
+  height: 370px;
 }
 
 .box-child-2{
-flex-basis: 420px;
-flex-grow: 2;
+  flex-grow: 2;
+  flex-basis: 420px;
 }
+/* child of box-1 end*/
 
 .box-2{
-display: flex;
+  display: flex;
 }
-
 
 .box-3{
-flex-basis: 10%;
+  flex-basis: 10%;
+}
 
-}
+/* child of box-3*/
 .box-child-3{
-flex-grow: 1;
-height: 200px;
+  flex-grow: 1;
+  height: 200px;
 }
+/* child of box-3 end*/
 
 .box-child-4{
   flex-grow:1;
 }
+
 .box-child-5{
   flex-grow:1;
 }
