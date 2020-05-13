@@ -2,7 +2,8 @@
 
 .container{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    border: solid 1px #ff0000;
 }
 
 .box{
@@ -11,11 +12,15 @@
     margin: 20px;
     padding: 10px;
     max-width: 1100px;
-    border: solid 1px #ff0000;
+  
 }
 
 .box-1{
     display: flex;
+}
+
+.border{
+    border: solid 1px #ff0000
 }
 
 .box-child-1{
@@ -27,7 +32,6 @@
     flex-grow: 2;
     flex-basis: 420px;
 }
-
 
 .box-2{
     display: flex;
