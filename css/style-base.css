@@ -15,15 +15,14 @@ body{
 h1,h2,h3{
   margin: 20px 10px;
 }
-
 .container{
-
-  width: 90%;
   margin: auto;
+  width:90%;
   height: 900px;
   padding: 10px;
   background-color: #ebdddf;
-  border:solid 1px #ccc;
-
-
+  border: solid 1px #cccccc;
+}
+a{
+  text-decoration: none;
 }
