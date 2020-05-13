@@ -23,3 +23,6 @@ h1,h2,h3{
   background-color: #ebdddf;
   border: solid 1px #cccccc;
 }
+a{
+  text-decoration: none;
+}
