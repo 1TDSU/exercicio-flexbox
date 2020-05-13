@@ -1,0 +1,76 @@
+@charset "UTF-8"
+.container{
+  display: flex;
+  flex-direction: column;
+  
+}
+.box-principal{
+  width: 1100px;
+  border: solid 1px black;
+  margin-left: 10px;
+  border-width: 2px;
+}
+.box{
+  display: flex;
+  width: 95%;
+  margin-left: 30px;
+  margin-top: 15px;
+  padding: 10px;
+  max-width: 1100px;
+  border: solid 1px #1f1294;  
+  margin-bottom: 20px;
+}
+
+
+.box-1{
+  margin-left: 10px;
+  flex-grow: 1;
+  height: 560px;
+  width: 750px;
+  float: left;
+}     
+
+.box-2{
+  margin-left: 10px;
+  flex-grow: 1;
+  height: 560px;
+  width: 320px;
+  float: left;
+}
+
+.filhas{
+  margin-left: 10px;
+  display: flex;
+  float: left;  
+  margin-top: 1px;
+  margin-bottom: 50px;
+}
+
+.box03{
+  margin-left: 1px;
+  flex-grow: 1;
+  height: 200px;
+  width: 359px;  
+}
+
+.box04{
+  margin-left: 25px;
+  flex-grow: 1;
+  height: 200px;
+  width: 359px;
+}
+
+  .box05{
+   margin-left: 17px;
+   flex-grow: 1;
+   height: 200px;
+   width: 315px;
+   }
+  
+  .box06{
+  margin-left: 10px;
+  position: relative;
+  flex-grow: 2;
+  height: 100px;
+  width: 1078px;
+  }
