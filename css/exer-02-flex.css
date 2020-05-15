@@ -7,9 +7,9 @@
 }
 
 .box{
-  display: block;
-  width: 96%;
-  margin: 20px;
+  display: flex;
+  width: 98%;
+  margin: 10px;
   padding: 10px;
   max-width: 1100px;
   border: solid 3px rgb(220, 20, 60);
@@ -18,21 +18,23 @@
 
 /*box 1*/
 .box-1{
+
   flex-basis: 50%;
+  border: none;
 }
 
 .box-child-1{
-  flex-basis: 250px;
-  height: 100px;
+  flex-basis: 200%;
+  flex-grow: 1;
 }
 
 .box-child-2{
-  flex-grow: 2;
+  flex-grow: 1;
 }
 
 /*box 2*/
 .box-2{
-  display: flex;
+  border: none;
 }
 
 .box-child-3{
@@ -50,5 +52,6 @@
 
 /*box 3*/
 .box-3{
-  display: flex;
+  flex-basis: 15%;
+
 }
